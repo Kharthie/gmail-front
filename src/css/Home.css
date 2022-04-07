@@ -1,0 +1,14 @@
+body {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+
+.main__body {
+  display: flex;
+  height: 100vh;
+}
+
+.emaildisc {
+  height: 100vh;
+}

@@ -1,0 +1,37 @@
+
+
+/* .col-md-6{
+    margin-right: 50px;
+ } */
+.reg-p{
+  margin-left: 0px;
+}
+.reg-s{
+ margin-left: 0px;
+
+}
+ img{
+  height: 200px;
+  width: 200px;
+
+} 
+ .heading{
+align-items: center;
+font-size: 20px;
+font-weight: 600;
+} 
+
+.button-reg {
+  display: flex;
+   margin-right: 20px;
+   justify-content: space-between;
+  
+} 
+
+
+ .inputfield1 {
+  margin-top: 20px;
+  background-color:#ced4da;
+   
+} 
+

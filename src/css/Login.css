@@ -1,0 +1,31 @@
+.gmail1 {
+  width: 100%;
+  object-fit: contain;
+}
+
+.gamil2 {
+  width: 20%;
+  object-fit: contain;
+  margin-top: 40px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.inputfield {
+  margin-top: 50px;
+  background-color:#ced4da;
+}
+
+.button {
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.button-r {
+  display: flex;
+  justify-content: space-between;
+}
