@@ -29,3 +29,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+.btn-btn-outline-success,
+.btn-primary{
+  background-color: transparent;
+}

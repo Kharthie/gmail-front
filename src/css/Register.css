@@ -33,5 +33,13 @@ font-weight: 600;
   margin-top: 20px;
   background-color:#ced4da;
    
-} 
+ }
 
+ .btn-btn-outline-success,
+ .btn-primary{
+   background-color: transparent;
+ }
+ a{
+  color: inherit;
+  text-decoration: none;
+ }

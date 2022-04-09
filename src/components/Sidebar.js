@@ -145,12 +145,12 @@ const Sidebar = () => {
                     onChange={(e) => setmessage(e.target.value)}
                   />
                   <CModalFooter>
-                    <CButton color="danger" onClick={() => setVisible(true)}>
+                    <CButton className="btn btn-outline-danger"  onClick={() => setVisible(true)}>
                       Close
                     </CButton>
 
                     <Link to="/">
-                    <CButton color="success" type="submit" onClick={sendmail}>
+                    <CButton className="btn btn-outline-success"  type="submit" onClick={sendmail}>
                       Send
                     </CButton>
                     </Link>

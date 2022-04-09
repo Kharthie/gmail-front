@@ -79,12 +79,13 @@ const Login = () => {
                 />
                 <br></br>
                 <div className="button-r">
-                  <p>Don't_have_an_Account_?</p>
+                  <a>Don't_have_an_Account_?</a>
                   <Link to="/register">
-                    <button className="btn btn-success button">Register</button>
+                    <button className="btn btn-outline-success">Register</button>
                   </Link>
-                  <p>Already_have_an_Account_!</p>
-                  <button className="btn btn-success button" type="submit">
+                  <a>Already_have_an_Account_!</a>
+                 
+                  <button className="btn btn-outline-success" type="submit">
                     Login
                   </button>
                 </div>

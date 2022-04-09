@@ -102,16 +102,16 @@ const Register = () => {
                   name="username"
                 />
                 <br></br>
-                <div className="button-reg">
-                  <p className="reg-p">Don't_have_an_account_?</p>
-                  <button className="btn btn-success button" type="submit">
+                <div className="button-r">
+                  <a className="reg-p">Don't_have_an_account_?</a>
+                  <button className="btn btn-outline-success" type="submit">
                     Register
                   </button>
 
-                  <p className="reg-s">Already_have_an_account_!</p>
+                  <a className="reg-s">Already_have_an_account_!</a>
 
                   <Link to="/">
-                    <button className="btn btn-success button">SignIn</button>
+                    <button className="btn btn-outline-success">SignIn</button>
                   </Link>
                 </div>
               </div>
