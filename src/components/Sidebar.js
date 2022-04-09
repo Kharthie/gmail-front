@@ -148,9 +148,13 @@ const Sidebar = () => {
                     <CButton color="danger" onClick={() => setVisible(true)}>
                       Close
                     </CButton>
+
+                    <Link to="/">
                     <CButton color="success" type="submit" onClick={sendmail}>
                       Send
                     </CButton>
+                    </Link>
+
                   </CModalFooter>
                 </form>
               </CModalBody>
