@@ -83,6 +83,7 @@ const Login = () => {
                   <Link to="/register">
                     <button className="btn btn-outline-success">Register</button>
                   </Link>
+                  <br></br>
                   <a>Already_have_an_Account_!</a>
                  
                   <button className="btn btn-outline-success" type="submit">

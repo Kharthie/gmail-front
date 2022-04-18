@@ -103,12 +103,12 @@ const Register = () => {
                 />
                 <br></br>
                 <div className="button-r">
-                  <a className="reg-p">Don't_have_an_account_?</a>
+                  <a>Don't_have_an_account_?</a>
                   <button className="btn btn-outline-success" type="submit">
                     Register
                   </button>
 
-                  <a className="reg-s">Already_have_an_account_!</a>
+                  <a>Already_have_an_account_!</a>
 
                   <Link to="/">
                     <button className="btn btn-outline-success">SignIn</button>
