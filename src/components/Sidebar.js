@@ -149,7 +149,7 @@ const Sidebar = () => {
                       Close
                     </CButton>
 
-                    <Link to="/home">
+                    <Link to="/">
                     <CButton className="btn btn-outline-success"  type="submit" onClick={sendmail}>
                       Send
                     </CButton>
