@@ -106,7 +106,15 @@ const Sidebar = () => {
             onClick={() => setVisible(!visible)}
           >
             <span className="material__icons">
-              <AddIcon />
+              {/* <AddIcon /> */}
+             <img
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  margin: "0px",
+                  marginLeft: "0px",
+                }}
+             src="https://www.gstatic.com/images/icons/material/colored_icons/2x/create_32dp.png"></img>
             </span>
             Compose
           </button>
