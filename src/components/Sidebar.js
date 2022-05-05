@@ -222,7 +222,8 @@ const Sidebar = () => {
             <DuoIcon />
 
             <span className="material__icons">
-              <h3> New Meeting</h3>
+              <a href="https://meet.google.com/" target="_blank"><h3> New Meeting</h3></a>
+           
             </span>
           </div>
           <br></br>
@@ -230,7 +231,8 @@ const Sidebar = () => {
           <div className="sidebar__option ">
             <SendIcon />
             <span className="material__icons">
-              <h3>Join Meeting</h3>
+            <a href="https://meet.google.com/" target="_blank"> <h3>Join Meeting</h3></a>
+             
             </span>
           </div>
         </div>
