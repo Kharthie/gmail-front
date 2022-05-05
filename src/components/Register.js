@@ -53,7 +53,7 @@ const Register = () => {
               <div className="col-md-8">
                 <input
                   type="text"
-                  placeholder="First Name"
+                  placeholder="Enter Your First Name..."
                   className="form-control inputfield1"
                   onChange={formik.handleChange}
                   value={formik.values.firstname}
@@ -62,7 +62,7 @@ const Register = () => {
 
                 <input
                   type="text"
-                  placeholder="Last Name"
+                  placeholder="Enter Your Last Name..."
                   className="form-control inputfield1"
                   onChange={formik.handleChange}
                   value={formik.values.lastname}
@@ -71,7 +71,7 @@ const Register = () => {
 
                 <input
                   type="email"
-                  placeholder="Enter Your Actual Mail-ID to get a Email"
+                  placeholder="Enter Your Actual Mail-ID to get a Email..."
                   className="form-control inputfield1"
                   onChange={formik.handleChange}
                   value={formik.values.email}
@@ -79,7 +79,7 @@ const Register = () => {
                 />
                 <input
                   type="password"
-                  placeholder="Password"
+                  placeholder="Enter Your Password..."
                   className="form-control inputfield1"
                   onChange={formik.handleChange}
                   value={formik.values.password}
@@ -87,7 +87,7 @@ const Register = () => {
                 />
                 <input
                   type="number"
-                  placeholder="Phone Number"
+                  placeholder="Enter Your Phone Number..."
                   className="form-control inputfield1"
                   onChange={formik.handleChange}
                   value={formik.values.phone}
@@ -95,7 +95,7 @@ const Register = () => {
                 />
                 <input
                   type="text"
-                  placeholder="UserName"
+                  placeholder="Enter Your Username..."
                   className="form-control inputfield1"
                   onChange={formik.handleChange}
                   value={formik.values.username}
